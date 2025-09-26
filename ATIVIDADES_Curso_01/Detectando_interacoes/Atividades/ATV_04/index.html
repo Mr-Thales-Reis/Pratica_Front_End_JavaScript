@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando e manipulando elementos no DOM</title>
+
+    <style>
+        .estilo{
+            background-color: lightgray;
+        }
+
+        .botaoEditar{
+            margin-left: 30%;
+        }
+
+        .botaoRemover{
+            margin-left: 45%;
+        }
+    </style>
+
+</head>
+<body>
+  <p>Adicione um item: 
+    <input type="text" id="entrada">
+    <input type="button" value="Salvar" id="botaoSalvar">
+  </p>
+
+  <div id="minha-lista" class="estilo botaoEditar botaoRemover">
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
