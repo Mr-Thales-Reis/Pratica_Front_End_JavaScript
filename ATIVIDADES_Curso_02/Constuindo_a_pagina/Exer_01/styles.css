@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    background-color: #00090E;
+    color: #E7E5E5;
+    font-family: "Prompt", sans-serif;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    gap: 27px;
+    padding: 56px 0;
+}
+
