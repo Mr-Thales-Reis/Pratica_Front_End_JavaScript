@@ -10,3 +10,39 @@ body{
     padding: 56px 0;
 }
 
+aside{
+    background-color: #211727;
+    border-radius: 10px;
+    height: 80%;
+    padding: 40px 16px;
+    text-align: center;
+}
+
+.lista-links{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.lista-links li a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 45px;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.lista-links li:first-of-type a{
+    color: #FD7BF0;
+}
+
+.link-publicar{
+    border: 1px solid #FD7BF0;
+    padding: 12px 30px;
+    border-radius: 8px;
+}
